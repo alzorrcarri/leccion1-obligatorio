@@ -41,7 +41,7 @@
     m[7]=86.8e+24/Ms; x[7]=2872.5e+9/c; y[7]=0; vx[7]=0; vy[7]=6.8e+3/sqrt(G*Ms/c); ax[7]=0; ay[7]=0; periodo[6]=0;
     m[8]=102e+24/Ms; x[8]=4495e+9/c; y[8]=0; vx[8]=0; vy[8]=5.4e+3/sqrt(G*Ms/c); ax[8]=0; ay[8]=0; periodo[7]=0;
 
-   x[1]=x[1]+epsilon; // vy[5]=-vy[5];
+   // x[1]=x[1]+epsilon; // vy[5]=-vy[5];
 
     /* Para comprobar que todo está correcto, vamos a escribir estos vectores iniciales en pantalla*/
    cout << "Masa  Posición x  Posición y  Velocidad x Velocidad y" << endl;
