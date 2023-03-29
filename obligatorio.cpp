@@ -53,9 +53,9 @@
     /* Abrimos el fichero donde vamos a escribir los valores de las posiciones de los planetas
     según el formato descrito en el script de la animación gif proporcionado en clase*/
     /* Abrimos otro fichero para escribir los valores de energía y momento angular en función del tiempo y el último para escribir los períodos de los planetas*/
-    fichero_planetas.open("planets_perb_data.dat");
-    fichero_energia.open("energy_perb_time.dat");
-    fichero_periodos.open("periodos_perb.dat");
+    fichero_planetas.open("planets_data.dat");
+    fichero_energia.open("energy_time.dat");
+    fichero_periodos.open("periodos.dat");
 
     /* Hacemos un formato bonito para los documentos*/
     fichero_energia << "Tiempo astronómico" << '\t' << "Energía" << '\t' << "Momento angular" << endl;
